@@ -29,7 +29,7 @@ class DataInitializer {
         Ingredient(name: 'bay leaf', amount: '3 piece'),
         Ingredient(name: 'whole peppercorn', amount: '1 tsp'),
       ]),
-      Dish(name: 'Filipino Chicken Tinola', imgPath: 'tinola', cookingSteps: [
+      Dish(name: 'Chicken Tinola', imgPath: 'tinola', cookingSteps: [
         'Sauté the garlic, onion, and ginger',
         'Put-in the chicken and cook until color turns light brown',
         'Add the fish sauce. Stir. Pour rice washing into the cooking pot. Let boil. Cover the pot and simmer for 45 minutes. Note: add water if needed.',
@@ -46,7 +46,7 @@ class DataInitializer {
         Ingredient(name: 'fish sauce', amount: '2 tbsp'),
         Ingredient(name: 'pepper leaves', amount: '1 cup'),
       ]),
-      Dish(name: 'Spaghetti', imgPath: 'tinola', cookingSteps: [
+      Dish(name: 'Spaghetti', imgPath: 'spaghetti', cookingSteps: [
         'In a large pot, pour the water in and bring to a boil. Put in salt.',
         'Add the Spaghetti Noodles and cook until tender (see package for cooking time) then set aside',
         'Using a separate pan, saute the garlic and onions',
@@ -64,7 +64,7 @@ class DataInitializer {
         Ingredient(name: 'ground meat', amount: '1.5 lb'),
         Ingredient(name: 'hotdog', amount: '2-4 piece'),
       ]),
-      Dish(name: 'Fried Chicken', imgPath: 'tinola', cookingSteps: [
+      Dish(name: 'Fried Chicken', imgPath: 'fried-chicken', cookingSteps: [
         'Combine chicken, onion powder, nutmeg, cooking wine, patis, and Knorr SavorRich. Mix well and make sure that the chicken gets completely coated. Transfer everything to a resealable bag. Seal the bag and marinate overnight inside the refrigerator.',
         'Arrange the marinated chicken drumsticks on a steamer. Boil water and steam the chicken for 45 minutes.',
         'Remove the chicken from the steamer. Arrange over a wire rack. Air dry for 1 hour.',

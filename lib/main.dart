@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basic_exercise/dish_list_view.dart';
+import 'package:flutter_basic_exercise/screens/dish_list_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           secondary: Colors.redAccent,
         ),
       ),
-      home: const DishListView(),
+      home: DishListView(),
     );
   }
 }

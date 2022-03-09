@@ -6,8 +6,7 @@ class Dish {
   final List<Ingredient> ingredients;
   final List<String> cookingSteps;
 
-  Dish(
-      {required this.name,
+  Dish({required this.name,
       required this.imgPath,
       required this.ingredients,
       required this.cookingSteps});
