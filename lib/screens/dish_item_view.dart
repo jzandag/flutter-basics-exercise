@@ -17,8 +17,7 @@ class DishItemView extends StatelessWidget {
           1: FlexColumnWidth(3),
         },
         defaultVerticalAlignment: TableCellVerticalAlignment.middle,
-        children: dish.ingredients
-            .map(
+        children: dish.ingredients.map(
               (ingredient) => TableRow(children: [
                 Container(
                     padding: const EdgeInsets.all(5),
@@ -26,9 +25,8 @@ class DishItemView extends StatelessWidget {
                 Container(
                     padding: const EdgeInsets.all(5),
                     child: Text(ingredient.name))
-              ]),
-            )
-            .toList(),
+              ],),
+            ).toList(),
       ),
     );
   }
@@ -43,9 +41,7 @@ class DishItemView extends StatelessWidget {
           1: FlexColumnWidth(6),
         },
         defaultVerticalAlignment: TableCellVerticalAlignment.middle,
-        children: dish.cookingSteps
-            .asMap()
-            .map(
+        children: dish.cookingSteps.asMap().map(
               (i, step) => MapEntry(
                 i,
                 TableRow(children: [
@@ -55,9 +51,7 @@ class DishItemView extends StatelessWidget {
                   Container(padding: const EdgeInsets.all(5), child: Text(step))
                 ]),
               ),
-            )
-            .values
-            .toList(),
+            ).values.toList(),
       ),
     );
   }
